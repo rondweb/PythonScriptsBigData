@@ -16,7 +16,8 @@ sudo mosquitto_passwd -c /etc/mosquitto/passwd iotdevice 123456
 # Edit the mosquitto configuration file
 sudo nano /etc/mosquitto/mosquitto.conf
 
-# Add the following lines to the end of the file
+# The code to be exported
+code="# Add the following lines to the end of the file
 allow_anonymous false
 persistence true
 password_file /etc/mosquitto/passwd
@@ -29,7 +30,10 @@ log_type warning
 log_type notice
 log_type information
 log_dest file /mosquitto/log/mosquitto.log
-log_dest stdout
+log_dest stdout"
+
+# Append the code to the end of the mosquitto.conf file
+echo "$code" | sudo tee -a /etc/mosquitto/mosquitto.conf
 
 # MQTT Default listener
 listener 1883 0.0.0.0
