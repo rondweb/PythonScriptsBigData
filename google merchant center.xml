@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+<channel>
+    <title>Ebook The Power of Numbers - What they mean for you</title>
+    <link>https://www.amazon.com/dp/B0CY8YP7F3</link>
+    <description>Discover the Mysteries of the Universe with Numerology. Embark on a journey of self-discovery, empowerment, and cosmic connection with this comprehensive guide to the ancient art of numerology. Unearth the secrets of the universe as you learn to calculate and interpret your core numbers, understand the significance of master numbers, and apply numerology as a cosmic toolkit for your life.</description>
+    <item>
+        <g:id>1</g:id>
+        <g:title>Ebook The Power of Numbers - What they mean for you</g:title>
+        <g:description>Discover the Mysteries of the Universe with Numerology. Embark on a journey of self-discovery, empowerment, and cosmic connection with this comprehensive guide to the ancient art of numerology. Unearth the secrets of the universe as you learn to calculate and interpret your core numbers, understand the significance of master numbers, and apply numerology as a cosmic toolkit for your life.</g:description>
+        <g:link>https://www.amazon.com/dp/B0CY8YP7F3</g:link>
+        <g:image_link>https://m.media-amazon.com/images/I/61b+H54-f+L._SL1000_.jpg</g:image_link>
+        <g:author>Ronaldo Andrade</g:author>
+        <g:format>Ebook</g:format>
+        <g:genre>Self-help/Spirituality</g:genre>
+        <g:publication_date>2023-01-01</g:publication_date>
+        <g:isbn>B0CY8YP7F3</g:isbn>
+    </item>
+</channel>
+</rss>
